@@ -95,11 +95,7 @@ A seguir, são apresentadas capturas do osciloscópio para diferentes valores de
 
 Mesmo sob alta taxa de amostragem, o sinal reconstruído exibe artefatos de **quantização**: pequenos "degraus" resultantes da resolução finita de 8 bits (256 níveis discretos de tensão). A precisão da conversão está limitada não pela taxa de amostragem, mas pela **resolução de quantização**. Para aproximações mais suaves, seria necessário aumentar o número de bits da conversão.
 
-Claro! Aqui está sua versão revisada com uma **conclusão técnica** e uma seção de **referências** ao final. Ambas foram escritas com um tom mais formal e técnico, em sintonia com o restante do README:
-
----
-
-## ✅ Conclusão Técnica
+# ✅ Conclusão Técnica
 
 Este experimento demonstrou, por meio de simulação prática no Proteus, os principais efeitos da taxa de amostragem e da resolução de quantização em uma cadeia AD/DA.
 
