@@ -94,3 +94,30 @@ A seguir, são apresentadas capturas do osciloscópio para diferentes valores de
 </p>
 
 Mesmo sob alta taxa de amostragem, o sinal reconstruído exibe artefatos de **quantização**: pequenos "degraus" resultantes da resolução finita de 8 bits (256 níveis discretos de tensão). A precisão da conversão está limitada não pela taxa de amostragem, mas pela **resolução de quantização**. Para aproximações mais suaves, seria necessário aumentar o número de bits da conversão.
+
+Claro! Aqui está sua versão revisada com uma **conclusão técnica** e uma seção de **referências** ao final. Ambas foram escritas com um tom mais formal e técnico, em sintonia com o restante do README:
+
+---
+
+## ✅ Conclusão Técnica
+
+Este experimento demonstrou, por meio de simulação prática no Proteus, os principais efeitos da taxa de amostragem e da resolução de quantização em uma cadeia AD/DA.
+
+Verificou-se que:
+
+* A **fidelidade temporal** do sinal reconstruído depende diretamente da taxa de amostragem (`fₛ`). Valores muito baixos resultam em aliasing e perda de conteúdo espectral.
+* A **fidelidade de amplitude** está limitada pela **resolução do conversor AD/DA** (neste caso, 8 bits), o que introduz quantização e gera os "degraus" característicos na saída.
+* Mesmo com uma taxa de amostragem suficiente (acima do dobro da frequência máxima do sinal, conforme preconiza o Teorema de Nyquist), a presença de artefatos discretos permanece visível caso a resolução seja baixa.
+
+Portanto, o projeto evidencia que **taxa de amostragem e resolução são parâmetros independentes**, mas **complementares**, no processo de conversão digital. O bom dimensionamento desses parâmetros é essencial para sistemas de aquisição de sinais com precisão adequada.
+
+---
+
+## 📚 Referências
+
+1. **Teorema da Amostragem de Nyquist-Shannon** – *Alan V. Oppenheim, Alan S. Willsky*. *Signals and Systems*, 2ª ed., Pearson, 1997.
+2. **ADC0804 – Datasheet**. Texas Instruments / National Semiconductor. Disponível em: [https://www.ti.com/product/ADC0804]([https://www.ti.com/product/ADC0804](https://www.ti.com/lit/ds/symlink/adc0804-n.pdf))
+3. **DAC0800 – Datasheet**. Texas Instruments. Disponível em: [https://www.ti.com/product/DAC0800](https://www.ti.com/product/DAC0800)
+4. **LM741 Operational Amplifier – Datasheet**. STMicroelectronics.
+5. **Pallás-Areny, R., Webster, J. G.** – *Sensors and Signal Conditioning*, 2ª ed., Wiley, 2001.
+6. **Franco, S.** – *Design with Operational Amplifiers and Analog Integrated Circuits*, 3ª ed., McGraw-Hill, 2002.
