@@ -116,7 +116,7 @@ Portanto, o projeto evidencia que **taxa de amostragem e resolução são parâm
 ## 📚 Referências
 
 1. **Teorema da Amostragem de Nyquist-Shannon** – *Alan V. Oppenheim, Alan S. Willsky*. *Signals and Systems*, 2ª ed., Pearson, 1997.
-2. **ADC0804 – Datasheet**. Texas Instruments / National Semiconductor. Disponível em: [https://www.ti.com/product/ADC0804]([https://www.ti.com/product/ADC0804](https://www.ti.com/lit/ds/symlink/adc0804-n.pdf))
+2. **ADC0804 – Datasheet**. Texas Instruments / National Semiconductor. Disponível em: [https://www.ti.com/lit/ds/symlink/adc0804-n.pdf](https://www.ti.com/lit/ds/symlink/adc0804-n.pdf)
 3. **DAC0800 – Datasheet**. Texas Instruments. Disponível em: [https://www.ti.com/product/DAC0800](https://www.ti.com/product/DAC0800)
 4. **LM741 Operational Amplifier – Datasheet**. STMicroelectronics.
 5. **Pallás-Areny, R., Webster, J. G.** – *Sensors and Signal Conditioning*, 2ª ed., Wiley, 2001.
